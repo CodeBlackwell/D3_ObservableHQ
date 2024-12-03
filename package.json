@@ -1,0 +1,40 @@
+{
+  "name": "d3-observable-downloader",
+  "version": "1.0.0",
+  "description": "Download and extract D3.js examples and visualizations from ObservableHQ",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "d3-observable-download": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "d3",
+    "observable",
+    "observablehq",
+    "downloader",
+    "visualization",
+    "examples"
+  ],
+  "author": "codeblackwell",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^20.7.3",
+    "cli-progress": "^3.12.0",
+    "chalk": "^5.2.0",
+    "tar": "^6.1.15"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeblackwell/d3-observable-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeblackwell/d3-observable-downloader/issues"
+  },
+  "homepage": "https://github.com/codeblackwell/d3-observable-downloader#readme"
+}
